@@ -820,7 +820,7 @@ footer span {
   width:80%;
   font-family: 'Cabin Sketch', cursive; 
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 27px;
+  font-size: 30px;
   text-align: center;
   color:lightblue;
   padding-top: 40px;
@@ -837,7 +837,7 @@ footer span {
 .know-paragraph h2 {
   font-family: 'Cabin Sketch', cursive;  
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 30px;
   color:rgb(255, 122, 122);
   margin-top:50px;
@@ -847,7 +847,7 @@ footer span {
 .know-paragraph h3 {
   font-family: 'Cabin Sketch', cursive;  
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 35px;
   color:rgb(255, 122, 122);
 
@@ -874,7 +874,7 @@ footer span {
 
 .prayer-wrap span {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;  
+  font-weight: normal;  
   font-size: 35px;
   color:rgb(255, 122, 122);
 
