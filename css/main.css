@@ -1504,7 +1504,7 @@ audio {
     display:flex;
     justify-content: center;
     align-items: center;
-    width:60%;
+    width:80%;
   }
 
   .dropdown-content {
@@ -1515,7 +1515,7 @@ audio {
 
 
   .dropdown-content a {
-    padding: 1em 0 0 1.5em;
+    padding: 1em 0 0 1.2em;
     font-size: 19px;
   }
 
