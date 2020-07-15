@@ -362,7 +362,9 @@ main .content-wrapper {
   align-items: center;
   width:80%;
   align-items: flex-end;
-  margin-top:40px;
+  margin:100px 0 100px 0;
+  background-color:black;
+  padding:20px;
 }
 
 .last-image {
@@ -374,18 +376,19 @@ main .content-wrapper {
 
 .last-image p {
   font-family: abolition-soft,sans-serif;
-  font-family: 'Teko', sans-serif;  
   font-family: 'Source Sans Pro', sans-serif;
-
+  font-family: 'Teko', sans-serif;  
+  letter-spacing: 1px;  
   font-weight: 300;
   font-style: normal;
-  color: rgb(83, 145, 184);
+  color: white;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 26px;
   width: 100%;
-  text-align: left;
+  text-align: right;
   margin:0 auto;
 }
+
 
 .scripture-wrap .john316 {
   padding-top: 50px;
@@ -1266,7 +1269,7 @@ figure {
 }
 
 .image-links {
-  padding-bottom: 200px;
+  padding-bottom: 120px;
 }
 
 .last-image img {
@@ -1274,8 +1277,9 @@ figure {
 }
 
 .last-image p {
-  width: 80%;
-  font-size: 28px;
+  width: 90%;
+  font-size: 45px;
+  margin:0 auto;
 }
 
 .scripture-wrap {
@@ -1627,22 +1631,25 @@ audio {
   padding-bottom: 30px;
 }
 
-.scripture-wrap {
-  width:80%;
-}
-
-
 .slideshow-wrap {
   padding-top: 100px;
 }
 
 .last-image p {
   width:90%;
-  font-size: 36px;
-  
+  font-size: 60px;
+  color:white;
+  font-family: 'Teko', sans-serif;  
+  letter-spacing: 1px;  
+  text-align: right;
+ 
 }
 
-.scripture-wrap .john316 {
+.scripture-wrap {
+  background-color:black;
+  width: 60%;
+  padding: 40px 0;
+  margin-bottom: 100px;
 }
 
 /*-----desktop blog section -----------*/
