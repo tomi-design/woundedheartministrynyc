@@ -1123,7 +1123,10 @@ iframe {
   border-radius: 10px;
 }
 
-
+.media-divider {
+  border:rgb(179, 225, 255) solid 1px;
+  width:80%;
+}
 
 
 /* ==========================================================================
@@ -1535,16 +1538,16 @@ audio {
   font-size: 60px;
 }
 
-.video-gallery {
-}
-
 .video p {
  font-size: 22px;
  color:black;
 }
 
 
-
+.media-divider {
+  border:rgb(179, 225, 255) solid 1px;
+  width:80%;
+}
 
 
 
@@ -1921,13 +1924,25 @@ audio {
   flex-flow: row wrap;
   justify-content: center;
   align-items:flex-start;
+  padding: 150px 0 150px 0;
+}
+
+.media-title {
+  padding: 50px 0 40px 0;
 }
 
 .video {
   width:30%;
 }
 
+.video p {
+  font-size: 20px;
+}
 
+.media-divider {
+  border:rgb(179, 225, 255) solid 1px;
+  width:80%;
+}
 
 
 
