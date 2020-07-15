@@ -816,7 +816,8 @@ footer span {
   justify-content: center;
   align-items: center;
   width:75%;
-  
+  padding-top: 100px;
+  text-align: left;
 }
 
 .know-title {
@@ -832,7 +833,9 @@ footer span {
 
 .know-title span {
   font-family: reey;
-  font-size: 60px;
+  font-family: professor,sans-serif;
+
+  font-size: 90px;
   color:rgb(1, 84, 99);
   text-transform: none;
 }
@@ -843,6 +846,7 @@ footer span {
   font-weight: normal;
   font-size: 30px;
   color:rgb(255, 122, 122);
+  color:red;
   margin-top:50px;
   text-align: center;
 }
@@ -853,13 +857,14 @@ footer span {
   font-weight: normal;
   font-size: 35px;
   color:rgb(255, 122, 122);
+  color:red;
 
   text-align: center;
 }
 
 .know-paragraph p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
+  font-weight: normal;
   color:black;
   font-size: 24px;
 }
@@ -880,6 +885,7 @@ footer span {
   font-weight: normal;  
   font-size: 35px;
   color:rgb(255, 122, 122);
+  color:red;
 
 }
 
