@@ -2251,6 +2251,7 @@ label {
 
 .more-articles-wrapper {
   flex-flow: row wrap;
+  align-items: flex-start;
 }
 
 
