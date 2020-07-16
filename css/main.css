@@ -502,7 +502,6 @@ main .content-wrapper {
   width:100%;
   display:flex;
   justify-content: flex-start;
-  padding-top: 20px;
 }
 
 .article-title {
@@ -1287,7 +1286,7 @@ textarea {
 
 
 .blog-article-wrap p {
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
 
 }
