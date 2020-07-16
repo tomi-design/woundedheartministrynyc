@@ -1145,11 +1145,12 @@ input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
+  border: solid rgb(187, 225, 248) 1.75px;
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -1174,15 +1175,78 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-.contact-title {
-  transition: all 4s ease-in-out;
+.contact-main {
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.contact-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.contact-title {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  padding:50px 0;
+  text-align: center;
+}
 
+.contact-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  padding-bottom: 150px;
+}
 
+.contact-form button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: transparent;
+  padding:10px;
+  color:rgb(85, 152, 194);
+  border: solid rgb(92, 163, 207) 1.75px;
+  border: solid rgb(187, 225, 248) 1.75px;
+  padding:0.625em 1.875em;
+  border-radius: 0.313em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
+.contact-title h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: professor,sans-serif;
+  font-weight: 300;
+}
 
+.contact-title span {
+  font-size: 37px;
+}
+
+label {
+  font-family: 'Source Sans Pro', sans-serif;
+  color:rgb(0, 87, 102);
+}
+
+input {
+  font-family: 'Source Sans Pro', sans-serif;
+  color:rgb(0, 87, 102);
+}
+
+textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+  color:rgb(0, 87, 102);
+
+}
 
 /* ==========================================================================
    Helper classes
@@ -1606,6 +1670,22 @@ audio {
 }
 
 
+/*----------CONTACT PAGE TABLET---------*/
+
+
+.contact-form {
+  width:60%;
+}
+
+.contact-title h1 {
+  font-size: 50px;
+}
+
+.contact-title span {
+  font-size: 50px;
+}
+
+
 
 
    }
@@ -2004,6 +2084,31 @@ audio {
 }
 
 
+
+
+/*----------CONTACT PAGE DESKTOP---------*/
+
+
+.contact-form {
+  width:60%;
+}
+
+.contact-title h1 {
+  font-size: 50px;
+}
+
+.contact-title span {
+  font-size: 50px;
+}
+
+
+.contact-form button {
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+}
 
 
 
