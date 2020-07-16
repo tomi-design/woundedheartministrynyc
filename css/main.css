@@ -609,6 +609,12 @@ footer span {
 }
 
 
+.copyright a {
+  text-decoration: none;
+  color:white;
+  padding-left:5px;
+}
+
 /*----------------ABOUT PAGE MOBILE-----------------------*/
 
 .about-main {
