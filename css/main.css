@@ -1318,6 +1318,7 @@ textarea {
   font-family: 'Teko', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
+  word-spacing: 10px;
   text-transform: uppercase;
   color:rgb(0, 106, 124);
 }
