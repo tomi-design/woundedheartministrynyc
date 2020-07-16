@@ -529,6 +529,11 @@ main .content-wrapper {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+#blogbutton:hover {
+  background-color:rgb(0, 54, 71);
+  border:none;
+}
+
 /*-----aside-----*/
 
 .aside-wrapper {
