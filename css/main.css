@@ -407,6 +407,9 @@ main .content-wrapper {
 }
 
 .blog figure {
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
   width:100%;
   background-color: white;
 }
