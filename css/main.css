@@ -418,7 +418,7 @@ main .content-wrapper {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   padding: 1.875em 0.625em 5em 0.625em;
 }
 
@@ -474,6 +474,7 @@ main .content-wrapper {
   width:100%;
   display:flex;
   justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .article-title {
