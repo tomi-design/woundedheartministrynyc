@@ -121,8 +121,6 @@ header .content-wrapper {
 }
 
 header h2 {
-  /*font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;*/
   font-family: 'Teko', sans-serif;  
   font-weight: 300;
   font-size: 1.25em;
@@ -153,6 +151,7 @@ figure {
 
 figure img {
   width:100%;
+  -webkit-transform: translateZ(0); transform: translateZ(0);
 }
 
 .desktop-nav {
@@ -188,7 +187,7 @@ figure img {
   display:none;
 }
 
-.hero .content-wrapper { /*--oritinally content-wrapper---*/
+.hero .content-wrapper { /*--originaly content-wrapper---*/
   width:100%;
   position: relative;
 }
@@ -199,7 +198,6 @@ figure img {
 
 .hero p {
   color:rgb(1, 73, 95);
-  /*font-family: 'Galada', cursive; */
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   font-size: 1.125em;
@@ -216,24 +214,6 @@ figure img {
   top: 1em;
   left: 1.875em;
 }
-
-
-
-/*dropdown button*/
-
-/*.dropbutton {
-  background-color:white;
-  color:rgb(0, 93, 146);
-  border-radius: 10px;
-  cursor:pointer;
-  font-size: 14px;
-  padding:5px 10px;
-  font-family: 'Source Sans Pro', sans-serif;
-}*/
-
-/*.dropbutton:hover, .dropbutton:focus {
-  background-color: white;
-}*/
 
 .dropdown {
   position: relative;
@@ -273,7 +253,7 @@ figure img {
 }
 
 
-/*--- main ----*/
+/*--- MAIN MOBILE------------ ----*/
 
 
 main {
@@ -290,6 +270,7 @@ main .content-wrapper {
   justify-content: center;
   align-items: center;
   width:100%;
+  padding-bottom: 80px;
 }
 
 .image-links {
@@ -375,8 +356,6 @@ main .content-wrapper {
 }
 
 .last-image p {
-  font-family: abolition-soft,sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Teko', sans-serif;  
   letter-spacing: 1px;  
   font-weight: 300;
@@ -414,11 +393,7 @@ main .content-wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*border: rgb(92, 163, 207) solid 1px;*/
   width: 100%;
-  padding-bottom: 5.25em;
-  /*background-color: #f4f4f2;*/
- 
 }
 
 .blog-wrapper {
@@ -443,7 +418,6 @@ main .content-wrapper {
 
 .blog h2 {
   font-family: 'Teko', sans-serif;
-  /*font-family: 'reey';*/
   font-weight: 300;
   letter-spacing: 0.125em;
   font-size: 2.188em;
@@ -463,13 +437,6 @@ main .content-wrapper {
   align-items: center;
 }
 
-  /*.highlight {
-  background: url(../img/brush2.png);
-  background-repeat: no-repeat;
-  background-size: 100% 95%;
-  padding: 8px 0;
-  }*/
-
 .blog-title-wrapper {
   display:flex;
   flex-direction: column;
@@ -487,7 +454,6 @@ main .content-wrapper {
   padding-bottom: 20px;
   width:80%;
 }
-
 
 .article-text {
   width:100%;
@@ -548,14 +514,15 @@ main .content-wrapper {
 
 aside p {
   width:70%;
-  font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Teko', sans-serif;  
   letter-spacing: 1px;
-  /*font-family: reey;*/
   font-size: 24px;
   color:rgb(127, 190, 230);
 }
-/*----footer----*/
+
+
+
+/*----FOOTER MOBILE--------------------*/
 
 footer {
   display:flex;
@@ -593,7 +560,6 @@ footer span {
 
 .soc-icon {
   padding:2.5em;
-  
 }
 
 .social-med i {
@@ -606,6 +572,7 @@ footer span {
   justify-content: center;
   align-items: center;
   font-size: 12px;
+  width: 100%;;
 }
 
 
@@ -622,7 +589,6 @@ footer span {
 /*----------------ABOUT PAGE MOBILE-----------------------*/
 
 .about-main {
-  /*background-color: rgb(235, 245, 252);*/
   background:url('../img/bridge2.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -630,7 +596,6 @@ footer span {
 
 .about-title {
   font-family: 'Source Sans Pro', sans-serif;
-  /*font-family: 'Teko', sans-serif;*/  
   font-weight: 300;
 }
 
@@ -682,8 +647,6 @@ footer span {
 }
 
 .hurting-main {
-  background:url(../img/three-envelopes.png);
-  background:url(../img/whiteenvelope.png);
   background:url(../img/plainbb2.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -691,7 +654,6 @@ footer span {
 }
 
 .hurting-title {
-
   width:80%;
   font-family: professor,sans-serif;
   font-weight: 300;
@@ -706,7 +668,6 @@ footer span {
 }
 
 .hurting-text h3 {
-  font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Cabin Sketch', cursive; 
   color:rgb(151, 213, 255);
   font-size: 30px;
@@ -724,100 +685,7 @@ footer span {
 }
 
 /*-------------KNOW JESUS PAGE MOBILE---------*/
- /*.know-main {
-  background: url('../img/brooklynbfade2.jpg');
-  background-size:200em;
-  background-repeat: no-repeat;
-}
-
-.know-divider {
-  border:white solid 1px;
-  width:80%;
-}
-
-.know-paragraph {
-  width:75%;
-  
-}
-
-.know-title {
-  width:80%;
-  font-family: 'Cabin Sketch', cursive; 
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 28px;
-  text-align: center;
-  color:white;
-  color:black;
-  color:rgb(0, 71, 68);
-  padding-top: 50px;
-}
-
-.know-title span {
-  font-family: reey;
-  font-size: 40px;
-  color:rgb(36, 194, 186);
-  color:white;
-  color:black;
-  color:rgb(1, 84, 99);
-  text-transform: none;
-}
-
-.know-paragraph h2 {
-  font-family: 'Cabin Sketch', cursive;  
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: normal;
-  font-size: 30px;
-  color:white;
-  color:black;
-  color:rgb(0, 71, 68);
-  padding-top: 40px;
-  text-align: center;
-}
-
-.know-paragraph h3 {
-  font-family: 'Cabin Sketch', cursive;  
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: normal;
-  font-size: 35px;
-  color:pink;
-  color:rgb(255, 154, 154);
-  color:white;
-  color:rgb(37, 102, 110);
-  text-align: center;
-}
-
-.know-paragraph p {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  color:black;
-  font-size: 24px;
-}
-
-.know-wrap {
-  padding-top: 20px;
-}
-
-.prayer-wrap {
-  padding: 60px 0;
-  text-align: center;
-
-}
-
-.prayer-wrap span {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: normal;  
-  font-size: 35px;
-  color:pink;
-  color:rgb(0, 71, 68);
-}
-
-*/
-
-/*--------KNOW JESUS MOBILE STYLE TYPE 2----------*/
-
-.know-main {
  
-}
 
 .know-divider {
   border:lightblue solid 1px;
@@ -836,7 +704,6 @@ footer span {
 
 .know-title {
   width:80%;
-  font-family: 'Cabin Sketch', cursive; 
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
   text-align: center;
@@ -846,33 +713,26 @@ footer span {
 }
 
 .know-title span {
-  font-family: reey;
   font-family: professor,sans-serif;
-
   font-size: 90px;
   color:rgb(1, 84, 99);
   text-transform: none;
 }
 
 .know-paragraph h2 {
-  font-family: 'Cabin Sketch', cursive;  
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   font-size: 30px;
-  color:rgb(255, 122, 122);
   color:red;
   margin-top:50px;
   text-align: center;
 }
 
 .know-paragraph h3 {
-  font-family: 'Cabin Sketch', cursive;  
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   font-size: 35px;
-  color:rgb(255, 122, 122);
   color:red;
-
   text-align: center;
 }
 
@@ -891,14 +751,11 @@ footer span {
   padding: 60px 0;
   text-align: center;
   width:100%;
-  box-shadow: gray 20 20 20;
 }
 
 .prayer-wrap span {
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;  
   font-size: 35px;
-  color:rgb(255, 122, 122);
   color:red;
 
 }
@@ -973,7 +830,6 @@ section {
 }
 
 #mobiletitle {
-  font-family: professor,sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
   font-family: reey;
   font-weight: 300;
@@ -996,7 +852,6 @@ section {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   font-size: 22px; 
-  color:rgb(0, 106, 124); 
   color:rgb(110, 189, 216);
   width:80%;
   text-align: center;
@@ -1019,8 +874,6 @@ section {
   align-items: center;
   width:100%;
   padding-bottom: 80px;
-  /*background-color:rgb(227, 247, 253); */
-
 }
 
 .gallery-wrapper {
@@ -1069,17 +922,11 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
   font-family: professor,sans-serif;
   font-weight: normal;
-  color:rgb(0, 106, 124);
   color:rgb(73, 73, 73);
   font-size: 30px;
   width:90%;
-}
-
-.description p {
- 
 }
 
 .photo img {
@@ -1229,7 +1076,6 @@ input[type=submit]:hover {
   background-color: transparent;
   padding:10px;
   color:rgb(85, 152, 194);
-  border: solid rgb(92, 163, 207) 1.75px;
   border: solid rgb(187, 225, 248) 1.75px;
   padding:0.625em 1.875em;
   border-radius: 0.313em;
@@ -1237,7 +1083,6 @@ input[type=submit]:hover {
 }
 
 .contact-title h1 {
-  font-family: 'Source Sans Pro', sans-serif;
   font-family: professor,sans-serif;
   font-weight: 300;
 }
@@ -1303,7 +1148,6 @@ textarea {
 .blog-article-wrap p {
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 
@@ -1523,64 +1367,17 @@ figure {
 
 .blog-title-wrapper {
   padding-bottom: 20px;
-  /*background:url('../img/redprayerbw2.png');
-  /*background-color: rgb(0, 65, 73);*/
   background-repeat: no-repeat;
   background-size: cover;
   align-items: flex-end;
-
 }
 
 .blog-wrapper {
   padding-top:50px;
 }
 
-/*
-.blog .scripture {
-  font-family: 'Slabo 27px', serif;
-  /*font-family: 'Teko', sans-serif;  
-  font-family: 'Source Sans Pro', sans-serif;*/
-  
-
-  /*font-family: reey;
-  font-family: 'Noto Serif', serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-family: 'Slabo 27px', serif;
-  letter-spacing: 1px;
-  font-size: 30px;
-  padding-bottom: 10px;
-  padding-top: 30px;
-  /*color:rgb(1, 81, 92);
-  color:white;
-  width:50%;
-  font-style: normal;
-  text-align: right;
-  line-height: 1.5em;
-}
-
-.blog .scripture2 {
-  font-family: 'Slabo 27px', serif;
-  /*font-family: 'Teko', sans-serif;  
-  font-family: 'Source Sans Pro', sans-serif;
-
-  font-size: 22px;
-  padding-bottom: 60px;
-  color:rgb(1, 81, 92);
-  font-size: 30px;
-  font-family: 'Noto Serif', serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  color:white;
-  width:50%;
-  font-style: normal;
-  text-align: right;
-  padding-bottom: 20px;
-}*/
-
-
-
 .blog h2 {
   color:rgb(92, 163, 207);
-  /*color:white;*/
   padding-top: 80px;
 }
 
@@ -1608,7 +1405,9 @@ aside p {
   font-family: reey;
   font-size: 30px;
 }
-/*----- tablet footer ------*/
+
+
+/*----- FOOTER TABLET ------*/
 
 footer {
   padding-top: 100px;
@@ -1652,11 +1451,6 @@ footer span {
 /*---------HURTING PAGE TABLET------*/
 
 .hurting-main {
-  /*background:url(../img/three-envelopes.png);
-  background:url(../img/whiteenvelope.png);
-  background-repeat: no-repeat;
-  background-size: 90em;*/
-
   background:url(../img/plainbb2.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -1680,8 +1474,6 @@ footer span {
   display:flex;
   justify-content: center;
   align-items: center;
-  /*background:url("../img/bridge2.png");
-  background-repeat: no-repeat;*/
 }
 
 .pastor-wrapper {
@@ -1859,8 +1651,6 @@ audio {
     display:none;
   }
 
-
-
   figure {
     width:6%;
   }
@@ -1945,7 +1735,6 @@ audio {
 .blog-title-wrapper {
   width:100%;
   padding-bottom: 150px;
-  /*border-top: solid rgb(92, 163, 207) 2px;*/
 }
 
 .blog-wrapper {
@@ -2030,11 +1819,6 @@ audio {
 
 
 .hurting-main {
-  /*background:url(../img/three-envelopes.png);
-  background:url(../img/whiteenvelope.png);
-  background:url(../img/blue.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;*/
   background:url(../img/plainbb2.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -2047,9 +1831,7 @@ audio {
 }
 
 .hurting-text h3 {
-  font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Cabin Sketch', cursive;  
-
   color:rgb(250, 246, 0);
   font-size: 30px;
 }
@@ -2071,10 +1853,6 @@ audio {
 
 
 
-
-
-
-
 /*----------OUR PASTOR DESKTOP---------------*/
 
 
@@ -2089,17 +1867,12 @@ audio {
 }
 
 .pastor-title h1 {
-  font-family: reey;
-  font-family: professor,sans-serif;
   font-family: 'Teko', sans-serif; 
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 300;
   display:flex;
   font-size: 60px;
-  
-  color:lightblue;
-  color:black;
   color:rgb(0, 105, 105);
   margin:0 auto;
 }
@@ -2118,15 +1891,12 @@ audio {
 #title-para {
   width:50%;
   padding-top: 80px;
-  
 }
 
 
 .audio-wrapper h2 {
-  font-family: 'Teko', sans-serif; 
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
-  color:rgb(145, 192, 207);
   color:rgb(0, 105, 105);
 }
 
@@ -2138,48 +1908,6 @@ audio {
 .gallery-title h1 {
   font-size: 50px;
 }
-
-
-/*---- the fade in style---*/
-/*
-.photo {
-  width: 25%;
-  position: relative;
-}
-
-.photo:hover img {
-  opacity: 0.3;
-}
-
-.photo img {
-  opacity: 2;
-  display: block;
-  width: 90%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.photo:hover .description {
-  opacity:1;
-}
-
-.description {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%. -50%);
-  text-align: center;
-}
-
-.description p {
-  color:black;
-}
-
-*/
 
 .photo {
   width:25%;
