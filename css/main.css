@@ -706,7 +706,7 @@ footer span {
   justify-content: center;
   align-items: center;
   width:75%;
-  padding-top: 100px;
+  padding-top: 40px;
   text-align: left;
 }
 
@@ -728,20 +728,21 @@ footer span {
 }
 
 .know-paragraph h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Cabin Sketch', cursive;  
+
   font-weight: normal;
   font-size: 30px;
   color:red;
   margin-top:50px;
-  text-align: center;
+  text-align: left;
 }
 
 .know-paragraph h3 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Cabin Sketch', cursive;  
   font-weight: normal;
   font-size: 35px;
   color:red;
-  text-align: center;
+  text-align: left;
 }
 
 .know-paragraph p {
@@ -749,20 +750,18 @@ footer span {
   font-weight: normal;
   color:black;
   font-size: 24px;
+  text-align: left;
 }
 
-.know-wrap {
-  padding-top: 20px;
-}
 
 .prayer-wrap {
   padding: 60px 0;
-  text-align: center;
+  text-align: left;
   width:100%;
 }
 
 .prayer-wrap span {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Cabin Sketch', cursive;  
   font-weight: normal;  
   font-size: 35px;
   color:red;
