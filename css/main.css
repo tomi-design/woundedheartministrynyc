@@ -654,7 +654,7 @@ footer span {
 }
 
 .hurting-main {
-  background:url(../img/plainbb2.png);
+  background:url(../img/lonely9.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -676,12 +676,12 @@ footer span {
 
 .hurting-text h3 {
   font-family: 'Cabin Sketch', cursive; 
-  color:rgb(151, 213, 255);
-  font-size: 30px;
+  color:white;
+  font-size: 36px;
 }
 
 .hurting-text span {
-  color:rgb(255, 169, 169);
+  font-style: italic;
   font-weight: bold;
 }
 
@@ -689,6 +689,7 @@ footer span {
   font-family: 'Source Sans Pro', sans-serif;
   padding-bottom: 30px;
   color:white;
+  font-size: 26px;
 }
 
 /*-------------KNOW JESUS PAGE MOBILE---------*/
@@ -1467,7 +1468,7 @@ footer span {
 /*---------HURTING PAGE TABLET------*/
 
 .hurting-main {
-  background:url(../img/plainbb2.png);
+ 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1475,7 +1476,7 @@ footer span {
 
 
 .hurting-text p {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .hurting-title {
@@ -1835,7 +1836,6 @@ audio {
 
 
 .hurting-main {
-  background:url(../img/plainbb2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1848,7 +1848,6 @@ audio {
 
 .hurting-text h3 {
   font-family: 'Cabin Sketch', cursive;  
-  color:rgb(250, 246, 0);
   font-size: 30px;
 }
 
