@@ -901,7 +901,7 @@ audio {
   display:flex;
   justify-content: center;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .photo-wrapper {
@@ -1541,6 +1541,11 @@ audio {
 .gallery-title h1 {
   padding-top: 50px;
   font-size: 60px;
+  font-family: 'Teko', sans-serif;  
+  font-weight: 300;
+  text-transform: uppercase;
+  color:rgb(0, 106, 124);
+  word-spacing: 6px;
 }
 
 .photo-wrapper {
