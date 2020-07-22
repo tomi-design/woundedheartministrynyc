@@ -1246,6 +1246,41 @@ textarea {
 
 
 
+/*--------THANKS PAGE MOBILE-----------*/
+
+.thanks-main {
+  width:100%;
+  padding-bottom: 60px;
+}
+
+.thanks-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks-title {
+  width:80%;
+  font-size: 24px;
+  font-family: professor,sans-serif;
+  font-weight: 300;
+  text-align:center;
+  margin:50px 0;
+}
+
+.thanks-wrapper a {
+  text-decoration: none;
+}
+
+.thanks-wrapper a:hover {
+ color: rgb(0, 255, 255);
+}
+
+.thanks-wrapper p {
+  color:rgb(0, 168, 173);
+  font-size:18px;
+}
 
 
 
@@ -1696,6 +1731,25 @@ label {
 
 
 
+/*----------THANKS PAGE TABLET----------*/
+
+
+
+.thanks-title {
+  font-size: 30px;
+  margin:70px 0;
+}
+
+.thanks-wrapper p {
+  color:rgb(0, 168, 173);
+  font-size:22px;
+}
+
+
+
+
+
+
 
 
 }
@@ -2079,6 +2133,23 @@ label {
 }
 
 
+
+/*-----------THANKS PAGE DESKTOP---------*/
+
+
+.thanks-title {
+  font-size: 30px;
+  margin:70px 0 80PX 0;
+}
+
+.thanks-wrapper p {
+  color:rgb(0, 168, 173);
+  font-size:22px;
+}
+
+.thanks-wrapper a :hover {
+  color:rgb(0, 214, 221);
+}
 
 
 
