@@ -839,9 +839,10 @@ section {
 
 #mobiletitle {
   font-family: 'Source Sans Pro', sans-serif;
-  font-family: reey;
+  font-family: professor,sans-serif;
+  margin-bottom: 0;
   font-weight: 300;
-  font-size: 27px;
+  font-size: 46px;
   color:rgb(0, 106, 124);
 }
 
