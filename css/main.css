@@ -1019,8 +1019,27 @@ iframe {
 
 /*----------CONTACT PAGE MOBILE-------------*/
 
+form {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: flex-start;
+  width:100%;
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: solid rgb(0, 159, 187) 1.75px;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=email], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: solid rgb(0, 159, 187) 1.75px;
@@ -1045,6 +1064,20 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+::placeholder {
+  color:rgb(140, 188, 218);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color:rgb(140, 188, 218);
+}
+
+::-ms-input-placeholder {
+  color:rgb(140, 188, 218);
+}
+
 
 /* Add a background color and some padding around the form */
 .container {
@@ -1114,7 +1147,7 @@ input[type=submit]:hover {
 
 label {
   font-family: 'Source Sans Pro', sans-serif;
-  color:rgb(0, 87, 102);
+  color:rgb(0, 126, 148);
 }
 
 input {
@@ -1597,7 +1630,29 @@ audio {
 
 
 .contact-form {
-  width:60%;
+  width:90%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 20px;
+}
+input[type=email] {
+  width: 100%;
+  padding: 20px;
+}
+input[type=subject] {
+  width: 100%;
+  padding: 20px;
+}
+
+input {
+  font-size: 22px;
+}
+
+textarea {
+  padding: 20px 0 80px 20px;
+  font-size: 22px;
 }
 
 .contact-title h1 {
@@ -1608,6 +1663,13 @@ audio {
   font-size: 50px;
 }
 
+label {
+  font-size: 22px;
+}
+
+.contact-form button {
+  font-size: 24px;
+}
 
 /*-----------ARTICLE PAGE TABLET----------*/
 
@@ -1972,7 +2034,7 @@ audio {
 
 
 .contact-form {
-  width:60%;
+  width:100%;
 }
 
 .contact-title h1 {
