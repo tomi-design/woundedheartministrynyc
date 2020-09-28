@@ -532,21 +532,21 @@ aside p {
   flex-direction: row;
 }
 
-.first-page {
+.current-page {
   color:rgb(0, 54, 71);
   font-family: 'Teko', sans-serif;  
   font-size: 25px;
   padding:20px;
 }
 
-.older-posts {
+.other-posts {
   font-family: 'Teko', sans-serif;  
   font-size: 25px;
   padding:20px;
   color:rgb(127, 190, 230);
 }
 
-.older-posts a {
+.other-posts a {
   text-decoration: none;
   color:rgb(127, 190, 230);
 
