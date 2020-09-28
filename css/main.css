@@ -1753,6 +1753,24 @@ label {
   font-size: 40px;
 }
 
+.current-page {
+  color:rgb(0, 54, 71);
+  font-family: 'Teko', sans-serif;  
+  font-size: 40px;
+  padding:25px;
+}
+
+.other-posts {
+  font-family: 'Teko', sans-serif;  
+  font-size: 40px;
+  padding:25px;
+  color:rgb(127, 190, 230);
+}
+
+.other-posts a {
+  text-decoration: none;
+  color:rgb(127, 190, 230);
+}
 
 
 
